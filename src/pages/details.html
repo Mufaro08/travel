@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../images/favicon.png">
+    <meta property="og:title" content="Home_Page">
+    <meta property="og:description" content="This is a Home page page for the travel and planner website">
+    <meta property="og:url" content="https://mufaro08.github.io/travel/">
+    <meta property="og:image" content="./images/favicon.png">
+    <meta property="og:image:width" content="398">
+    <meta property="og:image:height" content="299x">
+    <meta property="og:type" content="website">
+    <meta property="twitter:title" content="Home_Page">
+    <meta property="twitter:description" content="This is a details page for the travel and planner website">
+    <meta property="twitter:url" content="https://mufaro08.github.io/travel/">
+    <meta property="twitter:image" content="./images/favicon.png">
+    <meta property="twitter:type" content="website">
+    <title>Destination Details</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="./scripts/script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <h2 class="logo">Travel Planner</h2>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/search.html">Search</a></li>
+            <li><a href="./pages/details.html?place=Paris">Sample Details</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <h1 id="destinationName">Destination Name</h1>
+    </header>
+
+    <main>
+    <section class="hero">
+        <img id="destinationHero" src="" alt="Destination Hero Image">
+    </section>
+
+    <section class="details-container">
+
+        <div class="description-box">
+            <h2>Description</h2>
+            <p id="destinationDescription">Loading description...</p>
+        </div>
+
+        <div class="poi-box">
+            <h2>Points of Interest</h2>
+            <ul id="poiList"></ul>
+        </div>
+
+    </section>
+
+    <section class="gallery-section">
+        <h2>Gallery</h2>
+        <div id="galleryGrid" class="gallery-grid"></div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <strong>Travel and Planner</strong>
+                <p> 155 Fife Street, Harare, Zimbabwe</p>
+                <p>info@hararecc.com</p>
+                <p>+263 778 684 558</p>
+            </div>
+    
+            <div class="footer-column">
+                <div class="social-links">
+                    <a href="https://youtube.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="www.linkedin.com/in/mufaro-maz-3890807a"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <div class="footer-column">
+                <p>WDD330 Class Project</p>
+                <p id="myName"></p>
+                <p id="copyright"></p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../js/details.js"></script>
+</body>
+
+</html>
